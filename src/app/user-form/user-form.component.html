@@ -1,0 +1,7 @@
+<p>Formulario de usuario</p>
+<input type="text" (input)="txt($event)">
+<span> {{inputMessage}} </span>
+<button [disabled]="disableBt" (click)="clickEvt()">Save</button>
+<div>
+    <span>Datos ingresados: {{ inputTxt }}</span>
+</div>
